@@ -8,3 +8,8 @@ class Material:
     name: str
     youngs_modulus: float  # Módulo de Young (Pa)
     roughness: float  # Rugosidad en metros
+
+
+# Default Materials
+
+CARBON_STEEL = Material(name="Carbon Steel", roughness=0.05, youngs_modulus=2e11)
